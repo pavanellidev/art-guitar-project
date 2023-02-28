@@ -1,7 +1,7 @@
 .home-bg {
   box-shadow: inset 0 -100px white;
   background-color: #bef9f3;
-  border-top: 1px solid #92ccc6;
+  border-top: 1px solid #b4f3ed;
 }
 
 .home {
@@ -12,10 +12,28 @@
 
 .home-conteudo {
   align-self: end;
-  padding-bottom: 190px;
-  font-family: 'Roboto', sans-serif;
+  padding-bottom: 170px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.125rem;
+  line-height: 1.40;
   color: #222222;
+}
+
+.botao {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #FB8B3C;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #562503;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.botao:hover,
+.botao:focus {
+  background: linear-gradient(#ff852d, #fc9826);
 }
 
 .home img {
