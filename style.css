@@ -1,6 +1,7 @@
 @import "./css/header&reset.css";
 @import "./css/home.css"; 
 @import "./css/guitarras-lista.css";
+@import "./css/tecnologia.css";
 
 .fadeInDown {
   transform: translate3d(0, -20px, 0);

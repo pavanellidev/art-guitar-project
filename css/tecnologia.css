@@ -1,0 +1,118 @@
+.tecnologia-bg {
+  background-color: #bef9f3;
+  box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-conteudo {
+  padding-top: 140px;
+}
+
+.tecnologia-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tecnologia span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.tecnologia h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #222222;
+  margin-bottom: 32px;
+}
+
+.tecnologia h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #222222;
+  font-size: 1.1rem;
+  width: max-content;
+  margin-bottom: 4px;
+}
+
+.tecnologia-conteudo-p {
+  font-family: 'Open Sans', sans-serif;
+  color: #222222;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.outro p {
+  font-family: 'Open Sans', sans-serif;
+  color: #222222;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e47d34;
+  letter-spacing: .1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: 3px solid #e47d34;
+}
+
+.tecnologia-detalhe {
+  width: 18px;
+  height: 6px;
+  background-color: #e47d34;
+  margin-bottom: 3px;
+  border-radius: 3px;
+}
+
+.tecnologia-vantagens {
+  margin-top: 45px;
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens p {
+  max-width: 27ch;
+}
+
+@media (max-width: 1100px) {
+  .tecnologia {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tecnologia h2 {
+    font-size: 2.1rem;
+  }
+  .tecnologia-bg {
+    box-shadow: inset 0 40px #fff, inset 0 -10px #fff;
+  }
+  .outro p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+  }
+}
