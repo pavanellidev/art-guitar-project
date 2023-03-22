@@ -71,6 +71,11 @@
   border-bottom: 3px solid #e47d34;
 }
 
+.link:hover {
+  color: #eb9f14;
+  border-bottom: 3px solid #eb9f14;
+}
+
 .tecnologia-detalhe {
   width: 18px;
   height: 6px;
