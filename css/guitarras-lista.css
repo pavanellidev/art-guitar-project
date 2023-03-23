@@ -76,11 +76,14 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  .guitarras-lista {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 750px) {
   .guitarras-lista img {
-    width: 85vw;
-    height: auto;
+    height: 320px;
   }
 }

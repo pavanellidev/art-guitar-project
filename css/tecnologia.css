@@ -17,6 +17,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 4px;
 }
 
 .tecnologia span {
@@ -116,8 +117,42 @@
   }
   .tecnologia {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   .tecnologia-conteudo {
-    padding-top: 60px;
+    padding-top: 40px;
+  }
+  .tecnologia-imagem img {
+    display: none;
+  }
+  .tecnologia-imagem {
+    border-radius: 4px;
+    background-image: url("/Imagens/craft2.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .tecnologia h2 {
+    font-size: 1.9rem;
+  }
+  .tecnologia span {
+    font-size: 1rem;
+  }
+  .tecnologia-conteudo {
+    padding-top: 30px;
+  }
+  .tecnologia-conteudo-p {
+    font-size: 0.9rem;
+  }
+  .tecnologia-vantagens {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .tecnologia-imagem {
+    height: 250px;
   }
 }
