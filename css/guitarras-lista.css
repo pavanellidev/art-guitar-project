@@ -87,3 +87,9 @@
     height: 320px;
   }
 }
+
+@media (max-width: 750px) {
+  .guitarras-lista img {
+    height: 280px
+  }
+}
